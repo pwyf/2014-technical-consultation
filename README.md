@@ -1,7 +1,7 @@
 Consultation on 2014 Aid Transparency Index data quality tests
 ==============================================================
 
-You can find information on our consultation for the 2014 Index tests here.
+You can find information on our consultation for the 2014 Index tests here. **The consultation runs until 21st February**, and we will confirm the final tests to be used shortly thereafter.
 
 We are using Github Issues to record:
 * the tests used in 2013
