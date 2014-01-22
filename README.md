@@ -1,7 +1,6 @@
 Consultation on 2014 Aid Transparency Index
 ===========================================
-
-*data quality tests*
+*Data quality tests*
 ------------------
 
 You can find information on our consultation for the 2014 Index tests here. **The consultation runs until 21st February**, and we will confirm the final tests to be used shortly thereafter.
