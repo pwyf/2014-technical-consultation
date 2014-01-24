@@ -1,6 +1,9 @@
 Consultation on 2014 Aid Transparency Index
 ===========================================
 
+Go straight to the [Indicators](https://github.com/pwyf/index-data-quality-tests/issues) &raquo;
+------------------------------------------------------------------------------------------------
+
 We welcome feedback on the data quality tests run against IATI-XML data as part of the Aid Transparency Index.
 
 This consultation runs until **21st February**. We will confirm the final tests that will be used in the 2014 Index shortly thereafter.
