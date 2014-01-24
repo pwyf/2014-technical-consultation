@@ -1,7 +1,7 @@
 Consultation on 2014 Aid Transparency Index
 ===========================================
 
-Go straight to the [Indicators &raquo;](https://github.com/pwyf/index-data-quality-tests/issues)
+Go straight to the [Indicators to add your comments &raquo;](https://github.com/pwyf/index-data-quality-tests/issues)
 ------------------------------------------------------------------------------------------------
 
 We welcome feedback on the data quality tests run against IATI-XML data as part of the Aid Transparency Index.
