@@ -21,4 +21,4 @@ Commenting on indicators
 ========================
 1. Click through to the [Issues page](https://github.com/pwyf/index-data-quality-tests/issues)
 2. Click on an individual indicator to view tests and proposals for 2014. We've tagged indicators where we've [identified issues](https://github.com/pwyf/index-data-quality-tests/issues?labels=Issues+identified&page=1&state=open) and where we're [considering changes](https://github.com/pwyf/index-data-quality-tests/issues?labels=Considering+changes&page=1&state=open).
-3. Please provide your comments in the box below the indicator. You'll need to create a free account with Github to comment, if you don't already have one.
+3. Please provide your comments in the box below the indicator. You'll need to [create a free account](https://github.com/) with Github to comment, if you don't already have one.
