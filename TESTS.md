@@ -34,7 +34,7 @@ methodologies before including such a measure.
 
 A total of 14 indicators refer to documents. These documents are manually checked to verify that they contain the required information to score for the indicator. For IATI publishers, the documents may be located via links in their XML files. 
 
-In 2014, 10 documents will be randomly sampled from organisations’ IATI files, with a minimum of five documents needing to meet the criteria for the indicator. 
+In 2014, 10 documents will be randomly sampled from organisations' IATI files, with a minimum of five documents needing to meet the criteria for the indicator. 
 
 For organisation level documents covered by indicators 5, 6, 7 and 11, where only a single document is expected, the document will be checked to see if it contains the required information to score on the indicator. 
 
