@@ -30,6 +30,18 @@ methodologies before including such a measure.
 
 [[full discussion...]](https://github.com/pwyf/index-data-quality-tests/issues/2)
 
+### Sampling
+
+A total of 14 indicators refer to documents. These documents are manually checked to verify that they contain the required information to score for the indicator. For IATI publishers, the documents may be located via links in their XML files. 
+
+In 2014, 10 documents will be randomly sampled from organisations’ IATI files, with a minimum of five documents needing to meet the criteria for the indicator. 
+
+For organisation level documents covered by indicators 5, 6, 7 and 11, where only a single document is expected, the document will be checked to see if it contains the required information to score on the indicator. 
+
+We will also be sampling data on results, sub-national location and conditions.
+
+[[full discussion...]](https://github.com/pwyf/index-data-quality-tests/issues/39)
+
 ## Indicators
 
 ### Commitment-level
@@ -147,7 +159,7 @@ In addition to the 2013 test, we will add a new test to assess whether the
 Tests:
 
         iati-identifier exists?
-        iati-identifier/text() is correctly formatted?
+        iati-identifier/text() contains reporting-org/@ref?
 
 *Explanation of second test*
 
