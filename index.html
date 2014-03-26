@@ -201,7 +201,7 @@ will be distributed equally among the three years.</p>
 <code>reporting-org/@ref</code> occurs in the <code>iati-identifier/text()</code>.</p>
 <p>Tests:</p>
 <pre class="prettyprint">iati-identifier exists?
-iati-identifier/text() contains reporting-org/@ref?</pre>
+iati-identifier/text() starts with reporting-org/@ref?</pre>
 <p><em>Explanation of second test</em></p>
 <p>If the reporting-org is <code>44000</code> then the following would pass this test:</p>
 <pre class="prettyprint">&lt;iati-identifier&gt;44000-P126875&lt;/iati-identifier&gt;</pre>
@@ -276,13 +276,13 @@ IATI <code>FinanceType</code> codelist.</p>
 default-finance-type/@code or transaction/finance-type/@code is on list FinanceType (if activity-status/@code is at least 2)?</pre>
 <p><a href="https://github.com/pwyf/index-data-quality-tests/issues/22">[full discussion...]</a></p>
 <a name="24__sectors"></a><h4>24. Sectors<a class="anchorlink" href="#24__sectors"></a></h4>
-<p>The second test used in the 2013 Index will be amended. It will will now assess 
+<p>The second test used in the 2013 Index will be amended. It will now assess
 whether at least one DAC sector code is used per activity, and whether the 
 <code>sector[@vocabulary=&quot;DAC&quot;]/@code</code> or <code>sector[not(@vocabulary)]/@code</code> is on the 
 DAC <code>Sector</code> codelist.</p>
 <p>Tests:</p>
 <pre class="prettyprint">sector exists?
-at least one `sector[@vocabulary=&quot;DAC&quot;]/@code` or `sector[not(@vocabulary)]/@code` is on list Sector?</pre>
+at least one of (sector[@vocabulary=&quot;DAC&quot;]/@code or sector[not(@vocabulary)]/@code) is on list Sector?</pre>
 <p><a href="https://github.com/pwyf/index-data-quality-tests/issues/23">[full discussion...]</a></p>
 <a name="25__sub_national_location"></a><h4>25. Sub-national location<a class="anchorlink" href="#25__sub_national_location"></a></h4>
 <p>The tests will be altered from the 2013 Index to exclude activities where the 
